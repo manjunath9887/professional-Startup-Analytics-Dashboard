@@ -1,0 +1,8 @@
+csv = filtered_df.to_csv(index=False)
+
+st.download_button(
+    label="Download Report",
+    data=csv,
+    file_name="startup_report.csv",
+    mime="text/csv"
+)
