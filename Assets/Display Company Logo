@@ -1,0 +1,8 @@
+from PIL import Image
+
+logo = Image.open("assets/logo.png")
+
+st.image(
+    logo,
+    width=200
+)
