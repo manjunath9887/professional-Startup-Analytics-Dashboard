@@ -1,0 +1,7 @@
+from assets.helper import top_industries
+
+st.subheader("Top Industries")
+
+top = top_industries(filtered_df)
+
+st.dataframe(top)
