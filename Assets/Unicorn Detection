@@ -1,0 +1,13 @@
+from assets.helper import unicorn_candidates
+
+st.subheader("Potential Unicorns")
+
+unicorns = unicorn_candidates(filtered_df)
+
+st.dataframe(
+    unicorns[
+        ["Startup Name",
+         "Industry",
+         "Valuation (M USD)"]
+    ]
+)
