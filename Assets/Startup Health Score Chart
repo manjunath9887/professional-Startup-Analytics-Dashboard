@@ -1,0 +1,15 @@
+from assets.helper import calculate_health_score
+
+filtered_df = calculate_health_score(filtered_df)
+
+fig = px.scatter(
+    filtered_df,
+    x="Revenue (M USD)",
+    y="Health Score",
+    color="Industry",
+    size="Valuation (M USD)",
+    hover_name="Startup Name",
+    title="Startup Health Analysis"
+)
+
+st.plotly_chart(fig,use_container_width=True)
