@@ -1,0 +1,28 @@
+
+.main {
+    background-color: #F5F7FA;
+}
+
+.stMetric {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #1E3A8A;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #2563EB;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+[data-testid="stSidebar"] * {
+    color: white;
+}
