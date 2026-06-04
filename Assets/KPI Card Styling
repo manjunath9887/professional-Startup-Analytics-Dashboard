@@ -1,0 +1,29 @@
+col1,col2,col3,col4 = st.columns(4)
+
+with col1:
+    st.metric(
+        "Total Funding",
+        "$500M",
+        "+15%"
+    )
+
+with col2:
+    st.metric(
+        "Valuation",
+        "$2.5B",
+        "+10%"
+    )
+
+with col3:
+    st.metric(
+        "Revenue",
+        "$320M",
+        "+8%"
+    )
+
+with col4:
+    st.metric(
+        "Profitability",
+        "72%",
+        "+5%"
+    )
