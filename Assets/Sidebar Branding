@@ -1,0 +1,10 @@
+st.sidebar.image(
+    "assets/logo.png",
+    width=150
+)
+
+st.sidebar.markdown("""
+# Startup Analytics
+
+Investor Intelligence Platform
+""")
